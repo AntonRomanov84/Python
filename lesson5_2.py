@@ -1,0 +1,8 @@
+txt_file = open('lesson5_2.txt', 'r')
+content = txt_file.readlines()
+print(f'Количество строк - {len(content)}')
+txt_file = open('lesson5_2.txt', 'r')
+content = txt_file.read()
+content = content.split()
+print(f'Количество слов - {len(content)}')
+txt_file.close()
